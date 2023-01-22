@@ -1,0 +1,14 @@
+{
+    "name": "cezar/mypostcard",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Cezar\\Mypostcard\\": "src/"
+        }
+    },
+    "require": {
+    	"ext-intl": "*",
+	    "ext-imagick": "*",
+        "tecnickcom/tcpdf": "^6.6"
+    }
+}

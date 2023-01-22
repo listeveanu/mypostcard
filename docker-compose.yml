@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php:
+    build: ./
+    container_name: design_store
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
